@@ -1,0 +1,14 @@
+# Credenciales
+config.php
+
+# Datos de runtime (se generan en el servidor)
+clients.json
+
+# ZIPs de releases (binarios grandes, se suben manualmente vía panel)
+releases/*.zip
+
+# OS y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

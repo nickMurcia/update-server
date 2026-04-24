@@ -1,0 +1,9 @@
+Options -Indexes
+
+# Proteger archivos sensibles
+<FilesMatch "^(config\.php|clients\.json)$">
+    Require all denied
+</FilesMatch>
+
+# Los ZIPs de releases sí son descargables públicamente (los clientes los descargan)
+# El resto del directorio está protegido por Options -Indexes

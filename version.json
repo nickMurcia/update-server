@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "released_at": "2026-04-24",
+  "changelog": "Versión inicial: analytics, cookies RGPD, 404 personalizada, artículos relacionados, búsqueda, exportar CSV, backup BD, share buttons, schema Article, rate limiting.",
+  "download_url": "",
+  "min_php": "8.0"
+}
